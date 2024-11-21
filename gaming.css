@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+body {
+    background-color: #b2906b; /* Match the page background */
+    color: #000; /* Text color */
+    min-height: 100vh; /* Ensure the body fills the screen */
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    height: 80px;
+    background: #c6a87d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw - 1300px) / 2);
+}
+
+.logo {
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4b2e1e;
+    padding: 0 1.5rem;
+}
+
+nav a:hover {
+    color: #330505;
+}
+
+.gaming-hero {
+    background: #b2906b;
+    text-align: center;
+    color: #000;
+    padding: 2rem 0;
+}
+
+.gaming-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.gaming-hero p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.games-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem calc((100vw - 1300px) / 2);
+}
+
+.game-item {
+    text-align: center;
+    margin: 1rem;
+    flex-basis: 45%;
+}
+
+.game-image {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 1rem;
+}
+
+.game-item h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.game-item p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+/* Ensure footer or content at the bottom of the page has the same background color */
+footer {
+    background-color: #b2906b;
+    text-align: center;
+    padding: 1rem 0;
+}
